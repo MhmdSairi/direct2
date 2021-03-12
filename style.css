@@ -104,3 +104,44 @@ body{
   background: #69a6ce;
   color: #fff;
 }
+  font-size: 0.9em;
+  font-weight: 100;
+  letter-spacing: 3px;
+  padding-top: 5px;
+  color: $white;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.green {
+  color: darken($secondary, 20%);
+}
+
+.red {
+  color: darken($error, 10%);
+}
+
+.alert {
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+p {
+  margin-top: -5px;
+  font-size: 0.5em;
+  font-weight: 100;
+  color: darken($dark, 10%);
+  letter-spacing: 1px;
+}
+
+button, .dot {
+  cursor: pointer;
+}
+
+#success-box {
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  left: 12%;
+  background: linear-gradient(to bottom right, $success 40%, $secondary 100%);
+  border-radius: 20px;
